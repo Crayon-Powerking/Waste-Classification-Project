@@ -1,2 +1,0 @@
-# Waste-Classification-Project
-基于树莓派部署yolov5-lite视觉模型，通过pyside6编写的上位机代码来实现目标检测和指定数据发送，再通过下位机STM32对数据进行矩阵变换再对数据进行处理，STM32采用FreeRTOS架构进行整体的逻辑控制
