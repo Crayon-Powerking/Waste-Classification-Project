@@ -1,0 +1,41 @@
+OLED硬件I2C:
+
+SCL：PB6
+SDA: PB7
+
+
+
+DRV8825：
+
+X轴：PB0，PB12，PB13，PB14
+Y轴：PA3，PA4，PA5
+Z轴：PB9，PB8，PB5
+
+
+
+NRF24L01:
+
+NRF\_CE   	PA1
+
+NRF\_CSN  	PA9
+
+NRF\_SCK  	PA10
+
+ NRF\_MOSI 	PA11
+
+NRF\_MISO 	PA12
+
+NRF\_IRQ  	PA15
+
+
+
+舵机：
+PA8
+
+
+
+上：
+B11 B10 B1 **B0** A7 A6 **A5 A4 A3** A2 **A1** A0 C15 C14 C13
+下
+**B12 B13 B14**  B15 **A8 A9 A10 A11 A12 A15** B3 B4 **B5** **B6 B7** **B8 B9**
+
